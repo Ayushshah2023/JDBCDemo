@@ -1,0 +1,11 @@
+server:
+  port: 1001
+
+spring:
+  application:
+    name: PRODUCT-BUISNESS-SERVICE
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8051/eureka/
